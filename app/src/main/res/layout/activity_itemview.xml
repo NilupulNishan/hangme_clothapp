@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/white"
+    android:id="@+id/notes_container"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="8dp"
+    android:layout_margin="8dp"
+    app:strokeWidth="0dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/itemImageView"
+                android:layout_alignParentEnd="true"
+                android:layout_width="200dp"
+                android:layout_height="250dp"
+                android:layout_marginTop="0dp"
+                android:contentDescription="A description of the image"/>
+        </RelativeLayout>
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/itemName"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:text="Item Name"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:freezesText="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/itemPrice"
+            android:textColor="@color/grey"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="Price"
+            android:paddingStart="8dp"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "970013857480",
+    "firebase_url": "https://hangme-v1-default-rtdb.firebaseio.com",
+    "project_id": "hangme-v1",
+    "storage_bucket": "hangme-v1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970013857480:android:1b27df631ea68ee39277fd",
+        "android_client_info": {
+          "package_name": "com.example.hangmev1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjmD0C1Rh-xUsFINnWFGH38Pt-cTY2fMM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
